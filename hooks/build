@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+H2_VERSION=1.4.196
+docker build --force-rm=true --no-cache=true --tag=thomseno/h2 --tag=thomseno/h2:$H2_VERSION --build-arg H2_VERSION=$H2_VERSION .
