@@ -11,7 +11,7 @@ ENV DOWNLOAD http://central.maven.org/maven2/com/h2database/h2/${H2_VERSION}/h2-
 RUN curl ${DOWNLOAD} -o h2.jar
 
 WORKDIR /
-ENTRYPOINT java $JAVA_OPTS -jar h2.jar -web -webAllowOthers -tcp -tcpAllowOthers -baseDir /h2-data
+ENTRYPOINT java $JAVA_OPTS -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=1 -jar h2.jar -web -webAllowOthers -tcp -tcpAllowOthers -baseDir /h2-data
 
 EXPOSE 8082 9092
 
