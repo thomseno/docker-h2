@@ -29,3 +29,9 @@ Run as a service, exposing ports 9092 (TCP database server) and 8082 (web interf
 ```
 docker run -d -p 9092:9092 -p 8082:8082 -v /path/to/local/h2-data:/h2-data --name=myH2Server thomseno/h2
 ```
+
+By setting the JAVA_OPTS environment variable you can for example set the memory parameters of the JVM:
+
+```
+docker run -d -e JAVA_OPTS='-Xmx256m -Xms256m' -p 9092:9092 -p 8082:8082 -v /path/to/local/h2-data:/h2-data --name=myH2Server thomseno/h2
+```
