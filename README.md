@@ -14,7 +14,9 @@ Dockerized H2 database.
 
 [Automated builds](https://hub.docker.com/r/thomseno/h2/) on [docker registry](https://registry.hub.docker.com/):
 
-* [`latest`, `1.4.197` (*1.4.197/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.197/Dockerfile)
+* [`latest`, `1.4.200` (*1.4.200/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.200/Dockerfile)
+* [`1.4.199` (*1.4.199/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.199/Dockerfile)
+* [`1.4.197` (*1.4.197/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.197/Dockerfile)
 * [`1.4.196` (*1.4.196/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.196/Dockerfile)
 
 ## Running
