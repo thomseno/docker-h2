@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-alpine
 
-MAINTAINER Oliver Thomsen <oliver@die-thomsens.de>
+LABEL org.opencontainers.image.authors="oliver@die-thomsens.de"
 
 ARG H2_VERSION
 
