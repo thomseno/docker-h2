@@ -6,9 +6,9 @@ ARG H2_VERSION
 
 RUN apk add --no-cache curl
 
-ENV DOWNLOAD http://central.maven.org/maven2/com/h2database/h2/${H2_VERSION}/h2-${H2_VERSION}.jar
+ENV DOWNLOAD_URL https://repo1.maven.org/maven2/com/h2database/h2/${H2_VERSION}/h2-${H2_VERSION}.jar
 
-RUN curl ${DOWNLOAD} -o h2.jar
+RUN curl ${DOWNLOAD_URL} -o h2.jar
 
 WORKDIR /
 ENTRYPOINT java $JAVA_OPTS -XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap -XX:MaxRAMFraction=1 -jar h2.jar -web -webAllowOthers -tcp -tcpAllowOthers -baseDir /h2-data
