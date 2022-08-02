@@ -5,7 +5,7 @@ Dockerized H2 database.
 ## Features
 
 * Inspired by [oscarfonts/h2](https://github.com/oscarfonts/docker-h2).
-* Using [ibm-semeru-runtimes](https://hub.docker.com/_/ibm-semeru-runtime).
+* Using [eclipse-temurin](https://hub.docker.com/_/eclipse-temurin).
 * Only packing H2 jar-file into Docker image (retrieved from Maven Central).
 * H2-DATA location on /h2-data
 * Exposing default ports 8082 / 9092

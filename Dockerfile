@@ -1,4 +1,4 @@
-FROM ibm-semeru-runtimes:open-11-jre
+FROM eclipse-temurin:11-jre
 
 LABEL org.opencontainers.image.authors="oliver@die-thomsens.de"
 
