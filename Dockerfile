@@ -6,7 +6,7 @@ ARG H2_VERSION
 
 RUN apk add --no-cache curl
 
-ENV DOWNLOAD http://central.maven.org/maven2/com/h2database/h2/${H2_VERSION}/h2-${H2_VERSION}.jar
+ENV DOWNLOAD http://repo1.maven.org/maven2/com/h2database/h2/${H2_VERSION}/h2-${H2_VERSION}.jar
 
 RUN curl ${DOWNLOAD} -o h2.jar
 
