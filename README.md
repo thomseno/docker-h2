@@ -5,19 +5,18 @@ Dockerized H2 database.
 ## Features
 
 * Inspired by [oscarfonts/h2](https://github.com/oscarfonts/docker-h2).
-* Using [openjdk:8-jre-alpine](https://hub.docker.com/r/_/openjdk/) to reduce images size.
+* Using [ibm-semeru-runtimes](https://hub.docker.com/_/ibm-semeru-runtime).
 * Only packing H2 jar-file into Docker image (retrieved from Maven Central).
 * H2-DATA location on /h2-data
 * Exposing default ports 8082 / 9092
 
-## Trusted builds
+## Builds
 
-[Automated builds](https://hub.docker.com/r/thomseno/h2/) on [docker registry](https://registry.hub.docker.com/):
+[builds on dockerhub](https://hub.docker.com/r/thomseno/h2/):
 
-* [`latest`, `1.4.200` (*1.4.200/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.200/Dockerfile)
-* [`1.4.199` (*1.4.199/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.199/Dockerfile)
-* [`1.4.197` (*1.4.197/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.197/Dockerfile)
-* [`1.4.196` (*1.4.196/Dockerfile*)](https://github.com/thomseno/docker-h2/blob/1.4.196/Dockerfile)
+* `2.1.214 / latest`
+* `2.0.204`
+* `1.4.200`
 
 ## Running
 
