@@ -14,8 +14,9 @@ Dockerized H2 database.
 
 [builds on dockerhub](https://hub.docker.com/r/thomseno/h2/):
 
-* `2.1.214 / latest`
-* `2.0.204`
+* `2.2.224 / latest`
+* `2.1.214`
+* `2.0.206`
 * `1.4.200`
 
 ## Running
