@@ -12,7 +12,7 @@ Dockerized H2 database.
 
 ## Builds
 
-[builds on dockerhub](https://hub.docker.com/r/thomseno/h2/):
+builds on [dockerhub](https://hub.docker.com/r/thomseno/h2/) and [GitHub Container Registry](https://github.com/thomseno/docker-h2/pkgs/container/h2) :
 
 * `2.3.232 / latest`
 * `2.2.224`
@@ -26,6 +26,10 @@ Get the image:
 
 ```
 docker pull thomseno/h2
+```
+or 
+```
+docker pull ghcr.io/thomseno/h2
 ```
 
 Run as a service, exposing ports 9092 (TCP database server) and 8082 (web interface) and mapping data volume to host:

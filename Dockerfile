@@ -1,5 +1,6 @@
 FROM eclipse-temurin:21-jre
 
+LABEL org.opencontainers.image.source=https://github.com/thomseno/docker-h2
 LABEL org.opencontainers.image.authors="oliver@die-thomsens.de"
 
 ARG H2_VERSION
