@@ -14,7 +14,8 @@ Dockerized H2 database.
 
 builds on [dockerhub](https://hub.docker.com/r/thomseno/h2/) and [GitHub Container Registry](https://github.com/thomseno/docker-h2/pkgs/container/h2) :
 
-* `2.3.232 / latest`
+* `2.4.240 / latest`
+* `2.3.232`
 * `2.2.224`
 * `2.1.214`
 * `2.0.206`
